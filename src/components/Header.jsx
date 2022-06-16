@@ -1,0 +1,36 @@
+import React, {useState} from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+
+const Header = () => {
+    const [header,setHeader] = useState(false);
+    const handleClick = () => {
+        setHeader(!header)
+    }
+  return (
+    <div className="fixed w-full h-[75px] flex justify-between items-center px-4 bg-[#0A1929] border-b-2 border-[#A5DEF1] text-gray-300">
+      <div>
+        <h1 className="text-[#A5DEF1] text-4xl font-[Fascinate]">Alex T.</h1>
+      </div>
+
+      <ul className="hidden md:flex">
+        <li>Homepage</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact me</li>
+      </ul>
+      {/* Hamburger  */}
+      <div onClick={handleClick} className="md:hidden cursor-pointer z-10">
+        {!header ? <FaBars /> : <FaTimes />}
+      </div>
+      {/* Mobile navbar */}
+      <ul className={!header ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#0A1929] flex flex-col justify-center items-center"}>
+        <li className="py-6 text-4xl">Homepage</li>
+        <li className="py-6 text-4xl">About</li>
+        <li className="py-6 text-4xl">Projects</li>
+        <li className="py-6 text-4xl">Contact me</li>
+      </ul>
+    </div>
+  );
+};
+
+export default Header;
