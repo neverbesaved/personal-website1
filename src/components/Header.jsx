@@ -42,9 +42,9 @@ const Header = () => {
         <li className="py-6 text-4xl">Contact me</li>
       </ul>
 
-      <div className="flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+          <li className="bg-[#333333] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/neverbesaved" target="_blank"
@@ -52,7 +52,7 @@ const Header = () => {
               GitHub <FaGithub />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+          <li className="bg-blue-600 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
           <a
             className="flex justify-between items-center w-full text-gray-300"
             href="https://www.facebook.com/ticau.alexandru" target="_blank"
@@ -60,7 +60,7 @@ const Header = () => {
             Facebook <FaFacebook />
           </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+          <li className="bg-[#1db954] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
           <a
             className="flex justify-between items-center w-full text-gray-300"
             href="https://open.spotify.com/user/31nyxokdszpt72elpvabqljfiwci?si=6a249895be5a4b26" target="_blank"
