@@ -1,15 +1,14 @@
 import React from "react";
 import Card from "../components/Card";
-import api from "../assets/projects/api.png";
-import auth from "../assets/projects/auth-page.png";
-import blog from "../assets/projects/blog.png";
-import comments from "../assets/projects/comments.png";
-import timer from "../assets/projects/timer.png";
-import monsters from "../assets/projects/monsters.png";
-import rps from "../assets/projects/rockpaperscissors.png";
-import simon from "../assets/projects/simon.png";
-import tindog from "../assets/projects/tindog.png";
-import todo from "../assets/projects/todo.png";
+import api from "../assets/api.png";
+import auth from "../assets/auth-page.png";
+import blog from "../assets/blog.png";
+import comments from "../assets/comments.png";
+import timer from "../assets/timer.png";
+import monsters from "../assets/monsters.png";
+import simon from "../assets/simon.png";
+import tindog from "../assets/tindog.png";
+import todo from "../assets/todo.png";
 
 const Projects = () => {
   return (
