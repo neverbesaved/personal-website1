@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-[180vh] bg-[#0A1929] text-gray-300">
+    <div name="about" className="w-full h-[180vh] bg-[#0A1929] text-gray-300 lg:h-screen">
       <div className="flex flex-col justify-center items-center w-full h-screen">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
@@ -31,32 +31,32 @@ const About = () => {
             <div>
               <p className="text-2xl border-b-2 border-[#EE550E]">Hard Skills :</p>
               <ul>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/javascript.png" />Javascript</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/html.png" />HTML5</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/css.png" />CSS3</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/react.png" />React</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/express.png" />Express</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/mongo.png" />MongoDB</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/npm.png" />npm</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/git.png" />git</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/tailwind.png" />tailwind</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/javascript.png" />Javascript</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/html.png" />HTML5</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/css.png" />CSS3</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/react.png" />React</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/express.png" />Express</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/mongo.png" />MongoDB</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/npm.png" />npm</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/git.png" />git</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/tailwind.png" />tailwind</li>
                 <p className="mt-4 text-2xl text-right">and others.</p>
               </ul>
             </div>
             <div>
             <p className="text-2xl border-b-2 border-[#EE550E]">Soft Skills :</p>
               <ul>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/stress.png" />Stress-resistant</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/team.png" />Team player</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/open-mind.png" />Open minded</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/time.png" />Time management skills</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/communication.png" />Communication skills</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/discipline.png" />Disciplined</li>
-                <li className="py-2"><img className="w-[30px] inline mr-2" src="./src/assets/problem.png" />Problem Solving skills</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/stress.png" />Stress-resistant</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/team.png" />Team player</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/open-mind.png" />Open minded</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/time.png" />Time management skills</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/communication.png" />Communication skills</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/discipline.png" />Disciplined</li>
+                <li className="cursor-default py-2 hover:scale-110 duration-500"><img className="w-[30px] inline mr-2" src="./src/assets/problem.png" />Problem Solving skills</li>
                 <div className="flex mx-auto h-[60px] justify-center mt-10">
-                  <a href="src/assets/CV_Ticau_Alexandru_ro.pdf"><div className=" mx-4 text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#EE550E] hover:border-[#EE550E]"> CV RO</div>
+                  <a target="_blank" href="src/assets/CV_Ticau_Alexandru_ro.pdf"><div className=" mx-4 text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#EE550E] hover:border-[#EE550E]"> CV RO</div>
                    </a>
-                   <a href="src/assets/CV_Ticau_Alexandru_en.pdf"><div className=" mx-4 text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#EE550E] hover:border-[#EE550E]"> CV EN</div>
+                   <a target="_blank" href="src/assets/CV_Ticau_Alexandru_en.pdf"><div className=" mx-4 text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-[#EE550E] hover:border-[#EE550E]"> CV EN</div>
                    </a>
                 </div>
               </ul>
