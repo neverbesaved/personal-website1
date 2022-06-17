@@ -25,15 +25,51 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <Card link={api} description="API Generator" view="https://github.com/neverbesaved/SIIT_Alexandru_Ticau/tree/main/08_week_optional"></Card>
-          <Card link={auth} description="Auth App" view="https://github.com/neverbesaved/WDB/tree/main/Auth-module"></Card>
-          <Card link={blog} description="Blog Website" view="https://github.com/neverbesaved/WDB/tree/main/blog-project"></Card>
-          <Card link={comments} description="Comment Section" view="https://github.com/neverbesaved/SIIT_Alexandru_Ticau/tree/main/05_week"></Card>
-          <Card link={timer} description="Digital Timer" view="https://github.com/neverbesaved/SIIT_Alexandru_Ticau/tree/main/07_week"></Card>
-          <Card link={monsters} description="Monster Game" view="https://github.com/neverbesaved/SIIT_Alexandru_Ticau/tree/main/11_week"></Card>
-          <Card link={simon} description="Simon Game" view="https://github.com/neverbesaved/WDB/tree/main/Simon-Game-main/Simon-Game-main"></Card>
-          <Card link={tindog} description="Tindog SPA" view="https://github.com/neverbesaved/WDB/tree/main/TinDog-WDB2021-main/TinDog-WDB2021-main"></Card>
-          <Card link={todo} description="Todo App" view="https://github.com/neverbesaved/WDB/tree/main/todolist-v1"></Card>
+          <Card
+            link={api}
+            description="API Generator"
+            view="https://github.com/neverbesaved/SIIT_Alexandru_Ticau/tree/main/08_week_optional"
+          ></Card>
+          <Card
+            link={auth}
+            description="Auth App"
+            view="https://github.com/neverbesaved/WDB/tree/main/Auth-module"
+          ></Card>
+          <Card
+            link={blog}
+            description="Blog Website"
+            view="https://github.com/neverbesaved/WDB/tree/main/blog-project"
+          ></Card>
+          <Card
+            link={comments}
+            description="Comment Section"
+            view="https://github.com/neverbesaved/SIIT_Alexandru_Ticau/tree/main/05_week"
+          ></Card>
+          <Card
+            link={timer}
+            description="Digital Timer"
+            view="https://github.com/neverbesaved/SIIT_Alexandru_Ticau/tree/main/07_week"
+          ></Card>
+          <Card
+            link={monsters}
+            description="Monster Game"
+            view="https://github.com/neverbesaved/SIIT_Alexandru_Ticau/tree/main/11_week"
+          ></Card>
+          <Card
+            link={simon}
+            description="Simon Game"
+            view="https://github.com/neverbesaved/WDB/tree/main/Simon-Game-main/Simon-Game-main"
+          ></Card>
+          <Card
+            link={tindog}
+            description="Tindog SPA"
+            view="https://github.com/neverbesaved/WDB/tree/main/TinDog-WDB2021-main/TinDog-WDB2021-main"
+          ></Card>
+          <Card
+            link={todo}
+            description="Todo App"
+            view="https://github.com/neverbesaved/WDB/tree/main/todolist-v1"
+          ></Card>
         </div>
       </div>
     </div>
